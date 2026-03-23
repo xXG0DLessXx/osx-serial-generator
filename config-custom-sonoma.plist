@@ -813,6 +813,36 @@
                 <key>Arch</key>
                 <string>x86_64</string>
                 <key>Base</key>
+                <string>_cpuid_set_info</string>
+                <key>Comment</key>
+                <string>algrey - Force cpuid_cores_per_package (4 Cores) for Sonoma</string>
+                <key>Count</key>
+                <integer>1</integer>
+                <key>Enabled</key>
+                <true/>
+                <key>Find</key>
+                <data>wegaAAAA</data>
+                <key>Identifier</key>
+                <string>kernel</string>
+                <key>Limit</key>
+                <integer>0</integer>
+                <key>Mask</key>
+                <data>//8AAAAA</data>
+                <key>MaxKernel</key>
+                <string>23.99.99</string>
+                <key>MinKernel</key>
+                <string>21.0.0</string>
+                <key>Replace</key>
+                <data>uAQAAAAA</data>
+                <key>ReplaceMask</key>
+                <data></data>
+                <key>Skip</key>
+                <integer>0</integer>
+            </dict>
+            <dict>
+                <key>Arch</key>
+                <string>x86_64</string>
+                <key>Base</key>
                 <string></string>
                 <key>Comment</key>
                 <string>algrey - cpuid_set_cpufamily - force CPUFAMILY_INTEL_PENRYN</string>
